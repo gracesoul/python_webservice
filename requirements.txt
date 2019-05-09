@@ -1,0 +1,10 @@
+BeautifulReport==0.0.9
+client==0.0.1
+configparser==3.7.4
+ddt==1.2.1
+et-xmlfile==1.0.1
+jdcal==1.4.1
+openpyxl==2.6.2
+PyMySQL==0.9.3
+suds==0.4
+suds-jurko==0.6

@@ -1,0 +1,365 @@
+2019-05-09 14:32:44,694-case-[INFO]-[my_log.py:35]-[日志信息]:测试
+2019-05-09 14:33:29,420-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:开始执行测试用例
+2019-05-09 14:33:29,646-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:开始执行第1条测试用例：正常操作
+2019-05-09 14:33:30,473-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:开始执行第2条测试用例：ip为空
+2019-05-09 14:33:30,871-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:开始执行第3条测试用例：短信模板为空
+2019-05-09 14:33:31,366-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:开始执行第4条测试用例：手机号为空
+2019-05-09 14:33:31,737-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:开始执行第5条测试用例：短信模板非1
+2019-05-09 14:33:32,137-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:开始执行第6条测试用例：错误的手机号码
+2019-05-09 14:33:32,645-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:测试用例执行完毕
+2019-05-09 14:47:09,968-test_bindBankCard-[INFO]-[my_log.py:35]-[日志信息]:---开始执行测试用例---
+2019-05-09 14:47:09,973-test_bindBankCard-[INFO]-[my_log.py:35]-[日志信息]:开始执行第1条测试用例：正常绑定银行卡
+2019-05-09 14:47:09,975-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'uid': '100010486', 'pay_pwd': '9874561230', 'mobile': '18871399020', 'cre_id': '230704197505282866', 'user_name': '殇殇', 'cardid': '622202260008617943', 'bank_type': '1001', 'bank_name': '中国工商银行', 'bank_area': '', 'bank_city': ''}
+2019-05-09 14:47:09,976-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:47:10,848-test_bindBankCard-[ERROR]-[my_log.py:39]-[日志信息]:断言失败了：'ok' != '用户交易密码不正确或未配置'
+- ok
++ 用户交易密码不正确或未配置
+
+2019-05-09 14:47:11,058-test_bindBankCard-[INFO]-[my_log.py:35]-[日志信息]:---测试用例执行结束---
+2019-05-09 14:47:11,059-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:开始执行测试用例
+2019-05-09 14:47:11,242-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:开始执行第1条测试用例：正常操作
+2019-05-09 14:47:11,363-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'client_ip': '192.168.70.52', 'tmpl_id': '1', 'mobile': '18871403020'}
+2019-05-09 14:47:11,364-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+2019-05-09 14:47:11,912-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:开始执行第2条测试用例：ip为空
+2019-05-09 14:47:11,913-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'client_ip': ' ', 'tmpl_id': '1', 'mobile': '17786426991'}
+2019-05-09 14:47:11,915-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+2019-05-09 14:47:12,000-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:返回结果是：用户IP不能为空
+2019-05-09 14:47:12,146-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:开始执行第3条测试用例：短信模板为空
+2019-05-09 14:47:12,154-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'client_ip': '192.168.70.52', 'tmpl_id': ' ', 'mobile': '17786426991'}
+2019-05-09 14:47:12,155-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+2019-05-09 14:47:12,235-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:返回结果是：Unmarshalling Error: For input string: "" 
+2019-05-09 14:47:12,388-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:开始执行第4条测试用例：手机号为空
+2019-05-09 14:47:12,390-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'client_ip': '192.168.70.52', 'tmpl_id': '1', 'mobile': ' '}
+2019-05-09 14:47:12,397-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+2019-05-09 14:47:12,473-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:返回结果是：手机号码错误
+2019-05-09 14:47:12,653-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:开始执行第5条测试用例：短信模板非1
+2019-05-09 14:47:12,654-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'client_ip': '192.168.70.52', 'tmpl_id': '3', 'mobile': '17786426991'}
+2019-05-09 14:47:12,655-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+2019-05-09 14:47:12,742-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:返回结果是：短信模板配置错误
+2019-05-09 14:47:12,906-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:开始执行第6条测试用例：错误的手机号码
+2019-05-09 14:47:12,911-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'client_ip': '192.168.70.52', 'tmpl_id': '1', 'mobile': '17786426'}
+2019-05-09 14:47:12,912-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+2019-05-09 14:47:12,993-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:返回结果是：手机号码错误
+2019-05-09 14:47:13,166-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:测试用例执行完毕
+2019-05-09 14:47:13,167-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:---开始执行测试用例---
+2019-05-09 14:47:13,812-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第1条测试用例：正常发送验证码
+2019-05-09 14:47:13,871-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:最大的手机号是：18871404020
+2019-05-09 14:47:13,873-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'client_ip': '192.168.70.52', 'tmpl_id': '1', 'mobile': '18871404020'}
+2019-05-09 14:47:13,876-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+2019-05-09 14:47:14,459-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第2条测试用例：正常注册
+2019-05-09 14:47:14,542-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:在注册之前，数据库的数据有：1855
+2019-05-09 14:47:14,544-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:username的值:sandy10
+2019-05-09 14:47:14,545-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '042461', 'user_id': 'sandy10', 'channel_id': '1', 'pwd': '123456', 'mobile': '18871404020', 'ip': '192.168.70.52'}
+2019-05-09 14:47:14,547-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:47:15,154-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第3条测试用例：验证码为空
+2019-05-09 14:47:15,155-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '', 'user_id': 'sandy', 'channel_id': '2', 'pwd': '123456', 'mobile': '18871361020', 'ip': '192.168.70.52'}
+2019-05-09 14:47:15,156-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:47:15,485-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第4条测试用例：用户名为空
+2019-05-09 14:47:15,486-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '333157', 'user_id': '', 'channel_id': '3', 'pwd': '123456', 'mobile': '18871361020', 'ip': '192.168.70.52'}
+2019-05-09 14:47:15,487-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:47:15,746-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第5条测试用例：渠道信息为空
+2019-05-09 14:47:15,747-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '333157', 'user_id': 'sandy', 'channel_id': '', 'pwd': '123456', 'mobile': '18871361020', 'ip': '192.168.70.52'}
+2019-05-09 14:47:15,749-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:47:16,044-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第6条测试用例：登录密码为空
+2019-05-09 14:47:16,045-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '333157', 'user_id': 'sandy', 'channel_id': '1', 'pwd': '', 'mobile': '18871361020', 'ip': '192.168.70.52'}
+2019-05-09 14:47:16,046-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:47:16,810-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第7条测试用例：手机号为空
+2019-05-09 14:47:16,811-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '333157', 'user_id': 'sandy', 'channel_id': '2', 'pwd': '123456', 'mobile': '', 'ip': '192.168.70.52'}
+2019-05-09 14:47:16,812-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:47:17,108-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第8条测试用例：ip为空
+2019-05-09 14:47:17,115-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '333157', 'user_id': 'sandy', 'channel_id': '3', 'pwd': '123456', 'mobile': '18871361020', 'ip': ''}
+2019-05-09 14:47:17,116-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:47:17,406-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第9条测试用例：手机号码格式错误
+2019-05-09 14:47:17,406-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '333157', 'user_id': 'sandy', 'channel_id': '1', 'pwd': '123456', 'mobile': '18871362xxx', 'ip': '192.168.70.52'}
+2019-05-09 14:47:17,409-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:47:17,694-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第10条测试用例：手机号已经注册过
+2019-05-09 14:47:17,695-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '333157', 'user_id': 'sandy', 'channel_id': '1', 'pwd': '123456', 'mobile': '18871362010', 'ip': '192.168.70.52'}
+2019-05-09 14:47:17,696-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:47:17,983-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第11条测试用例：验证码已经超时
+2019-05-09 14:47:17,990-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '536561', 'user_id': 'sandy', 'channel_id': '1', 'pwd': '123456', 'mobile': '18871362025', 'ip': '192.168.70.52'}
+2019-05-09 14:47:17,993-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:47:18,261-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第12条测试用例：渠道信息非1，2，3
+2019-05-09 14:47:18,262-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '333157', 'user_id': 'sandy', 'channel_id': '10', 'pwd': '123456', 'mobile': '18871361020', 'ip': '192.168.70.52'}
+2019-05-09 14:47:18,263-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:47:18,558-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:---测试用例执行结束---
+2019-05-09 14:47:18,560-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:---开始执行测试用例---
+2019-05-09 14:47:18,742-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:开始执行第1条测试用例:正常发送验证码
+2019-05-09 14:47:18,810-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:自动生成的身份证号是：411082195812151109
+2019-05-09 14:47:18,811-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'client_ip': '192.168.70.52', 'tmpl_id': '1', 'mobile': '18871405020'}
+2019-05-09 14:47:18,812-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+2019-05-09 14:47:19,174-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:注册的手机号：18871405020
+2019-05-09 14:47:19,176-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:验证码：283423
+2019-05-09 14:47:19,234-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:查到的用户id是：100010500
+2019-05-09 14:47:19,235-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:开始执行第2条测试用例:正常注册
+2019-05-09 14:47:19,240-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:自动生成的身份证号是：411082195812151109
+2019-05-09 14:47:19,242-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '283423', 'user_id': 'sandy1036', 'channel_id': '1', 'pwd': '123456', 'mobile': '18871405020', 'ip': '192.168.70.52'}
+2019-05-09 14:47:19,243-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:47:19,970-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:注册的手机号：18871405020
+2019-05-09 14:47:19,972-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:验证码：283423
+2019-05-09 14:47:20,039-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:查到的用户id是：100010501
+2019-05-09 14:47:20,040-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:开始执行第3条测试用例:正常实名认证
+2019-05-09 14:47:20,044-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:开始执行第4条测试用例:用户id为空
+2019-05-09 14:47:20,046-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:自动生成的身份证号是：411082195812151109
+2019-05-09 14:47:20,047-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'uid': '', 'true_name': '殇殇', 'cre_id': '420104198707034024'}
+2019-05-09 14:47:20,049-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:47:20,327-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:开始执行第5条测试用例:真实姓名为空
+2019-05-09 14:47:20,328-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:自动生成的身份证号是：411082195812151109
+2019-05-09 14:47:20,332-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'uid': '100009824', 'true_name': '', 'cre_id': '420104198707034024'}
+2019-05-09 14:47:20,333-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:47:20,615-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:开始执行第6条测试用例:身份证号为空
+2019-05-09 14:47:20,616-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:自动生成的身份证号是：411082195812151109
+2019-05-09 14:47:20,617-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'uid': '100009824', 'true_name': '殇殇', 'cre_id': ''}
+2019-05-09 14:47:20,621-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:47:20,889-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:开始执行第7条测试用例:身份证号不合法
+2019-05-09 14:47:20,890-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:自动生成的身份证号是：411082195812151109
+2019-05-09 14:47:20,895-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'uid': '100009824', 'true_name': '殇殇', 'cre_id': '420104198714204a29'}
+2019-05-09 14:47:20,896-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:47:21,165-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:开始执行第8条测试用例:用户id为假
+2019-05-09 14:47:21,166-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:自动生成的身份证号是：411082195812151109
+2019-05-09 14:47:21,167-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'uid': '10086', 'true_name': '殇殇', 'cre_id': '420104198707034024'}
+2019-05-09 14:47:21,168-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:47:21,449-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:开始执行第9条测试用例:真实姓名不合法
+2019-05-09 14:47:21,450-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:自动生成的身份证号是：411082195812151109
+2019-05-09 14:47:21,452-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'uid': '100009824', 'true_name': 'test', 'cre_id': '420104198707034024'}
+2019-05-09 14:47:21,453-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:47:21,773-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:---测试用例执行结束---
+2019-05-09 14:50:50,914-test_bindBankCard-[INFO]-[my_log.py:35]-[日志信息]:---开始执行测试用例---
+2019-05-09 14:50:50,915-test_bindBankCard-[INFO]-[my_log.py:35]-[日志信息]:开始执行第1条测试用例：正常绑定银行卡
+2019-05-09 14:50:50,916-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'uid': '100010486', 'pay_pwd': '9874561230', 'mobile': '18871399020', 'cre_id': '230704197505282866', 'user_name': '殇殇', 'cardid': '622202260008617943', 'bank_type': '1001', 'bank_name': '中国工商银行', 'bank_area': '', 'bank_city': ''}
+2019-05-09 14:50:50,917-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:50:51,304-test_bindBankCard-[ERROR]-[my_log.py:39]-[日志信息]:断言失败了：'ok' != '用户交易密码不正确或未配置'
+- ok
++ 用户交易密码不正确或未配置
+
+2019-05-09 14:50:51,564-test_bindBankCard-[INFO]-[my_log.py:35]-[日志信息]:---测试用例执行结束---
+2019-05-09 14:50:51,573-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:开始执行测试用例
+2019-05-09 14:50:51,694-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:开始执行第1条测试用例：正常操作
+2019-05-09 14:50:51,828-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'client_ip': '192.168.70.52', 'tmpl_id': '1', 'mobile': '18871406020'}
+2019-05-09 14:50:51,831-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+2019-05-09 14:50:52,351-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:开始执行第2条测试用例：ip为空
+2019-05-09 14:50:52,352-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'client_ip': ' ', 'tmpl_id': '1', 'mobile': '17786426991'}
+2019-05-09 14:50:52,353-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+2019-05-09 14:50:52,438-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:返回结果是：用户IP不能为空
+2019-05-09 14:50:52,609-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:开始执行第3条测试用例：短信模板为空
+2019-05-09 14:50:52,620-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'client_ip': '192.168.70.52', 'tmpl_id': ' ', 'mobile': '17786426991'}
+2019-05-09 14:50:52,625-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+2019-05-09 14:50:52,934-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:返回结果是：Unmarshalling Error: For input string: "" 
+2019-05-09 14:50:53,105-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:开始执行第4条测试用例：手机号为空
+2019-05-09 14:50:53,110-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'client_ip': '192.168.70.52', 'tmpl_id': '1', 'mobile': ' '}
+2019-05-09 14:50:53,114-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+2019-05-09 14:50:53,214-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:返回结果是：手机号码错误
+2019-05-09 14:50:53,375-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:开始执行第5条测试用例：短信模板非1
+2019-05-09 14:50:53,384-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'client_ip': '192.168.70.52', 'tmpl_id': '3', 'mobile': '17786426991'}
+2019-05-09 14:50:53,387-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+2019-05-09 14:50:53,477-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:返回结果是：短信模板配置错误
+2019-05-09 14:50:53,647-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:开始执行第6条测试用例：错误的手机号码
+2019-05-09 14:50:53,648-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'client_ip': '192.168.70.52', 'tmpl_id': '1', 'mobile': '17786426'}
+2019-05-09 14:50:53,649-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+2019-05-09 14:50:53,728-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:返回结果是：手机号码错误
+2019-05-09 14:50:53,889-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:测试用例执行完毕
+2019-05-09 14:50:53,893-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:---开始执行测试用例---
+2019-05-09 14:50:54,006-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第1条测试用例：正常发送验证码
+2019-05-09 14:50:54,080-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:最大的手机号是：18871407020
+2019-05-09 14:50:54,082-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'client_ip': '192.168.70.52', 'tmpl_id': '1', 'mobile': '18871407020'}
+2019-05-09 14:50:54,083-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+2019-05-09 14:50:54,489-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第2条测试用例：正常注册
+2019-05-09 14:50:54,548-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:在注册之前，数据库的数据有：1858
+2019-05-09 14:50:54,553-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:username的值:sandy18
+2019-05-09 14:50:54,555-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '330647', 'user_id': 'sandy18', 'channel_id': '1', 'pwd': '123456', 'mobile': '18871407020', 'ip': '192.168.70.52'}
+2019-05-09 14:50:54,557-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:50:55,131-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第3条测试用例：验证码为空
+2019-05-09 14:50:55,133-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '', 'user_id': 'sandy', 'channel_id': '2', 'pwd': '123456', 'mobile': '18871361020', 'ip': '192.168.70.52'}
+2019-05-09 14:50:55,134-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:50:55,400-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第4条测试用例：用户名为空
+2019-05-09 14:50:55,402-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '333157', 'user_id': '', 'channel_id': '3', 'pwd': '123456', 'mobile': '18871361020', 'ip': '192.168.70.52'}
+2019-05-09 14:50:55,404-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:50:55,670-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第5条测试用例：渠道信息为空
+2019-05-09 14:50:55,678-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '333157', 'user_id': 'sandy', 'channel_id': '', 'pwd': '123456', 'mobile': '18871361020', 'ip': '192.168.70.52'}
+2019-05-09 14:50:55,680-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:50:56,139-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第6条测试用例：登录密码为空
+2019-05-09 14:50:56,141-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '333157', 'user_id': 'sandy', 'channel_id': '1', 'pwd': '', 'mobile': '18871361020', 'ip': '192.168.70.52'}
+2019-05-09 14:50:56,142-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:50:56,427-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第7条测试用例：手机号为空
+2019-05-09 14:50:56,428-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '333157', 'user_id': 'sandy', 'channel_id': '2', 'pwd': '123456', 'mobile': '', 'ip': '192.168.70.52'}
+2019-05-09 14:50:56,430-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:50:56,688-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第8条测试用例：ip为空
+2019-05-09 14:50:56,693-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '333157', 'user_id': 'sandy', 'channel_id': '3', 'pwd': '123456', 'mobile': '18871361020', 'ip': ''}
+2019-05-09 14:50:56,695-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:50:56,954-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第9条测试用例：手机号码格式错误
+2019-05-09 14:50:56,968-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '333157', 'user_id': 'sandy', 'channel_id': '1', 'pwd': '123456', 'mobile': '18871362xxx', 'ip': '192.168.70.52'}
+2019-05-09 14:50:56,969-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:50:57,247-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第10条测试用例：手机号已经注册过
+2019-05-09 14:50:57,249-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '333157', 'user_id': 'sandy', 'channel_id': '1', 'pwd': '123456', 'mobile': '18871362010', 'ip': '192.168.70.52'}
+2019-05-09 14:50:57,251-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:50:57,561-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第11条测试用例：验证码已经超时
+2019-05-09 14:50:57,563-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '536561', 'user_id': 'sandy', 'channel_id': '1', 'pwd': '123456', 'mobile': '18871362025', 'ip': '192.168.70.52'}
+2019-05-09 14:50:57,564-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:50:57,842-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第12条测试用例：渠道信息非1，2，3
+2019-05-09 14:50:57,843-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '333157', 'user_id': 'sandy', 'channel_id': '10', 'pwd': '123456', 'mobile': '18871361020', 'ip': '192.168.70.52'}
+2019-05-09 14:50:57,845-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:50:58,157-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:---测试用例执行结束---
+2019-05-09 14:50:58,159-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:---开始执行测试用例---
+2019-05-09 14:50:58,315-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:开始执行第1条测试用例:正常发送验证码
+2019-05-09 14:50:58,373-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:自动生成的身份证号是：510812199608141495
+2019-05-09 14:50:58,374-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'client_ip': '192.168.70.52', 'tmpl_id': '1', 'mobile': '18871408020'}
+2019-05-09 14:50:58,375-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+2019-05-09 14:50:58,801-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:注册的手机号：18871408020
+2019-05-09 14:50:58,803-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:验证码：267545
+2019-05-09 14:50:58,857-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:查到的用户id是：100010503
+2019-05-09 14:50:58,858-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:开始执行第2条测试用例:正常注册
+2019-05-09 14:50:58,859-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:自动生成的身份证号是：510812199608141495
+2019-05-09 14:50:58,861-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '267545', 'user_id': 'sandy1845', 'channel_id': '1', 'pwd': '123456', 'mobile': '18871408020', 'ip': '192.168.70.52'}
+2019-05-09 14:50:58,862-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:50:59,346-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:注册的手机号：18871408020
+2019-05-09 14:50:59,347-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:验证码：267545
+2019-05-09 14:50:59,415-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:查到的用户id是：100010504
+2019-05-09 14:50:59,418-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:开始执行第3条测试用例:正常实名认证
+2019-05-09 14:50:59,486-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:开始执行第4条测试用例:用户id为空
+2019-05-09 14:50:59,487-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:自动生成的身份证号是：510812199608141495
+2019-05-09 14:50:59,489-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'uid': '', 'true_name': '殇殇', 'cre_id': '420104198707034024'}
+2019-05-09 14:50:59,491-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:50:59,768-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:开始执行第5条测试用例:真实姓名为空
+2019-05-09 14:50:59,770-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:自动生成的身份证号是：510812199608141495
+2019-05-09 14:50:59,772-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'uid': '100009824', 'true_name': '', 'cre_id': '420104198707034024'}
+2019-05-09 14:50:59,773-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:51:00,085-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:开始执行第6条测试用例:身份证号为空
+2019-05-09 14:51:00,089-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:自动生成的身份证号是：510812199608141495
+2019-05-09 14:51:00,091-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'uid': '100009824', 'true_name': '殇殇', 'cre_id': ''}
+2019-05-09 14:51:00,093-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:51:00,368-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:开始执行第7条测试用例:身份证号不合法
+2019-05-09 14:51:00,369-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:自动生成的身份证号是：510812199608141495
+2019-05-09 14:51:00,371-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'uid': '100009824', 'true_name': '殇殇', 'cre_id': '420104198714204a29'}
+2019-05-09 14:51:00,372-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:51:00,699-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:开始执行第8条测试用例:用户id为假
+2019-05-09 14:51:00,705-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:自动生成的身份证号是：510812199608141495
+2019-05-09 14:51:00,712-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'uid': '10086', 'true_name': '殇殇', 'cre_id': '420104198707034024'}
+2019-05-09 14:51:00,714-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:51:01,089-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:开始执行第9条测试用例:真实姓名不合法
+2019-05-09 14:51:01,091-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:自动生成的身份证号是：510812199608141495
+2019-05-09 14:51:01,093-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'uid': '100009824', 'true_name': 'test', 'cre_id': '420104198707034024'}
+2019-05-09 14:51:01,098-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:51:01,492-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:---测试用例执行结束---
+2019-05-09 14:52:43,892-test_bindBankCard-[INFO]-[my_log.py:35]-[日志信息]:---开始执行测试用例---
+2019-05-09 14:52:43,893-test_bindBankCard-[INFO]-[my_log.py:35]-[日志信息]:开始执行第1条测试用例：正常绑定银行卡
+2019-05-09 14:52:43,894-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'uid': '100010486', 'pay_pwd': '9874561230', 'mobile': '18871399020', 'cre_id': '230704197505282866', 'user_name': '殇殇', 'cardid': '622202260008617943', 'bank_type': '1001', 'bank_name': '中国工商银行', 'bank_area': '', 'bank_city': ''}
+2019-05-09 14:52:43,895-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:52:44,902-test_bindBankCard-[ERROR]-[my_log.py:39]-[日志信息]:断言失败了：'ok' != '用户交易密码不正确或未配置'
+- ok
++ 用户交易密码不正确或未配置
+
+2019-05-09 14:52:45,079-test_bindBankCard-[INFO]-[my_log.py:35]-[日志信息]:---测试用例执行结束---
+2019-05-09 14:52:45,081-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:开始执行测试用例
+2019-05-09 14:52:45,223-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:开始执行第1条测试用例：正常操作
+2019-05-09 14:52:45,351-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'client_ip': '192.168.70.52', 'tmpl_id': '1', 'mobile': '18871409020'}
+2019-05-09 14:52:45,354-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+2019-05-09 14:52:45,911-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:开始执行第2条测试用例：ip为空
+2019-05-09 14:52:45,913-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'client_ip': ' ', 'tmpl_id': '1', 'mobile': '17786426991'}
+2019-05-09 14:52:45,914-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+2019-05-09 14:52:45,992-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:返回结果是：用户IP不能为空
+2019-05-09 14:52:46,139-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:开始执行第3条测试用例：短信模板为空
+2019-05-09 14:52:46,142-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'client_ip': '192.168.70.52', 'tmpl_id': ' ', 'mobile': '17786426991'}
+2019-05-09 14:52:46,145-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+2019-05-09 14:52:46,230-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:返回结果是：Unmarshalling Error: For input string: "" 
+2019-05-09 14:52:46,376-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:开始执行第4条测试用例：手机号为空
+2019-05-09 14:52:46,378-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'client_ip': '192.168.70.52', 'tmpl_id': '1', 'mobile': ' '}
+2019-05-09 14:52:46,386-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+2019-05-09 14:52:46,461-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:返回结果是：手机号码错误
+2019-05-09 14:52:46,631-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:开始执行第5条测试用例：短信模板非1
+2019-05-09 14:52:46,634-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'client_ip': '192.168.70.52', 'tmpl_id': '3', 'mobile': '17786426991'}
+2019-05-09 14:52:46,636-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+2019-05-09 14:52:46,710-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:返回结果是：短信模板配置错误
+2019-05-09 14:52:46,863-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:开始执行第6条测试用例：错误的手机号码
+2019-05-09 14:52:46,872-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'client_ip': '192.168.70.52', 'tmpl_id': '1', 'mobile': '17786426'}
+2019-05-09 14:52:46,875-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+2019-05-09 14:52:47,262-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:返回结果是：手机号码错误
+2019-05-09 14:52:47,426-test_sendMcode-[INFO]-[my_log.py:35]-[日志信息]:测试用例执行完毕
+2019-05-09 14:52:47,429-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:---开始执行测试用例---
+2019-05-09 14:52:47,642-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第1条测试用例：正常发送验证码
+2019-05-09 14:52:47,697-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:最大的手机号是：18871410020
+2019-05-09 14:52:47,699-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'client_ip': '192.168.70.52', 'tmpl_id': '1', 'mobile': '18871410020'}
+2019-05-09 14:52:47,702-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+2019-05-09 14:52:48,101-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第2条测试用例：正常注册
+2019-05-09 14:52:48,165-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:在注册之前，数据库的数据有：1860
+2019-05-09 14:52:48,166-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:username的值:sandy56
+2019-05-09 14:52:48,168-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '574733', 'user_id': 'sandy56', 'channel_id': '1', 'pwd': '123456', 'mobile': '18871410020', 'ip': '192.168.70.52'}
+2019-05-09 14:52:48,169-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:52:48,697-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第3条测试用例：验证码为空
+2019-05-09 14:52:48,698-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '', 'user_id': 'sandy', 'channel_id': '2', 'pwd': '123456', 'mobile': '18871361020', 'ip': '192.168.70.52'}
+2019-05-09 14:52:48,701-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:52:49,023-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第4条测试用例：用户名为空
+2019-05-09 14:52:49,024-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '333157', 'user_id': '', 'channel_id': '3', 'pwd': '123456', 'mobile': '18871361020', 'ip': '192.168.70.52'}
+2019-05-09 14:52:49,028-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:52:49,289-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第5条测试用例：渠道信息为空
+2019-05-09 14:52:49,290-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '333157', 'user_id': 'sandy', 'channel_id': '', 'pwd': '123456', 'mobile': '18871361020', 'ip': '192.168.70.52'}
+2019-05-09 14:52:49,294-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:52:49,664-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第6条测试用例：登录密码为空
+2019-05-09 14:52:49,666-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '333157', 'user_id': 'sandy', 'channel_id': '1', 'pwd': '', 'mobile': '18871361020', 'ip': '192.168.70.52'}
+2019-05-09 14:52:49,671-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:52:50,039-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第7条测试用例：手机号为空
+2019-05-09 14:52:50,041-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '333157', 'user_id': 'sandy', 'channel_id': '2', 'pwd': '123456', 'mobile': '', 'ip': '192.168.70.52'}
+2019-05-09 14:52:50,042-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:52:50,480-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第8条测试用例：ip为空
+2019-05-09 14:52:50,482-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '333157', 'user_id': 'sandy', 'channel_id': '3', 'pwd': '123456', 'mobile': '18871361020', 'ip': ''}
+2019-05-09 14:52:50,484-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:52:50,778-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第9条测试用例：手机号码格式错误
+2019-05-09 14:52:50,780-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '333157', 'user_id': 'sandy', 'channel_id': '1', 'pwd': '123456', 'mobile': '18871362xxx', 'ip': '192.168.70.52'}
+2019-05-09 14:52:50,782-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:52:51,072-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第10条测试用例：手机号已经注册过
+2019-05-09 14:52:51,074-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '333157', 'user_id': 'sandy', 'channel_id': '1', 'pwd': '123456', 'mobile': '18871362010', 'ip': '192.168.70.52'}
+2019-05-09 14:52:51,075-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:52:51,370-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第11条测试用例：验证码已经超时
+2019-05-09 14:52:51,371-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '536561', 'user_id': 'sandy', 'channel_id': '1', 'pwd': '123456', 'mobile': '18871362025', 'ip': '192.168.70.52'}
+2019-05-09 14:52:51,373-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:52:51,643-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:开始测试第12条测试用例：渠道信息非1，2，3
+2019-05-09 14:52:51,644-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '333157', 'user_id': 'sandy', 'channel_id': '10', 'pwd': '123456', 'mobile': '18871361020', 'ip': '192.168.70.52'}
+2019-05-09 14:52:51,646-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:52:51,967-test_userRegister-[INFO]-[my_log.py:35]-[日志信息]:---测试用例执行结束---
+2019-05-09 14:52:51,969-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:---开始执行测试用例---
+2019-05-09 14:52:52,183-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:开始执行第1条测试用例:正常发送验证码
+2019-05-09 14:52:52,261-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:自动生成的身份证号是：653223199403112630
+2019-05-09 14:52:52,262-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'client_ip': '192.168.70.52', 'tmpl_id': '1', 'mobile': '18871411020'}
+2019-05-09 14:52:52,263-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/sms-service-war-1.0/ws/smsFacade.ws?wsdl
+2019-05-09 14:52:52,619-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:注册的手机号：18871411020
+2019-05-09 14:52:52,620-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:验证码：835444
+2019-05-09 14:52:52,678-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:查到的用户id是：100010505
+2019-05-09 14:52:52,679-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:开始执行第2条测试用例:正常注册
+2019-05-09 14:52:52,681-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:自动生成的身份证号是：653223199403112630
+2019-05-09 14:52:52,683-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'verify_code': '835444', 'user_id': 'sandy5697', 'channel_id': '1', 'pwd': '123456', 'mobile': '18871411020', 'ip': '192.168.70.52'}
+2019-05-09 14:52:52,684-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:52:53,245-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:注册的手机号：18871411020
+2019-05-09 14:52:53,246-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:验证码：835444
+2019-05-09 14:52:53,312-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:查到的用户id是：100010506
+2019-05-09 14:52:53,314-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:开始执行第3条测试用例:正常实名认证
+2019-05-09 14:52:53,372-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:实名认证之前，数据库的数据有：1481
+2019-05-09 14:52:53,375-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:自动生成的身份证号是：653223199403112630
+2019-05-09 14:52:53,376-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'uid': '100010506', 'true_name': '殇殇', 'cre_id': '653223199403112630'}
+2019-05-09 14:52:53,377-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:52:53,747-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:注册的手机号：18871411020
+2019-05-09 14:52:53,749-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:验证码：835444
+2019-05-09 14:52:53,807-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:查到的用户id是：100010506
+2019-05-09 14:52:53,867-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:实名认证之后，数据库的数据有：1482
+2019-05-09 14:52:53,869-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:开始执行第4条测试用例:用户id为空
+2019-05-09 14:52:53,871-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:自动生成的身份证号是：653223199403112630
+2019-05-09 14:52:53,873-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'uid': '', 'true_name': '殇殇', 'cre_id': '420104198707034024'}
+2019-05-09 14:52:53,875-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:52:54,182-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:开始执行第5条测试用例:真实姓名为空
+2019-05-09 14:52:54,184-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:自动生成的身份证号是：653223199403112630
+2019-05-09 14:52:54,186-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'uid': '100009824', 'true_name': '', 'cre_id': '420104198707034024'}
+2019-05-09 14:52:54,187-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:52:54,436-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:开始执行第6条测试用例:身份证号为空
+2019-05-09 14:52:54,437-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:自动生成的身份证号是：653223199403112630
+2019-05-09 14:52:54,439-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'uid': '100009824', 'true_name': '殇殇', 'cre_id': ''}
+2019-05-09 14:52:54,443-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:52:54,771-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:开始执行第7条测试用例:身份证号不合法
+2019-05-09 14:52:54,774-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:自动生成的身份证号是：653223199403112630
+2019-05-09 14:52:54,777-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'uid': '100009824', 'true_name': '殇殇', 'cre_id': '420104198714204a29'}
+2019-05-09 14:52:54,780-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:52:55,061-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:开始执行第8条测试用例:用户id为假
+2019-05-09 14:52:55,064-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:自动生成的身份证号是：653223199403112630
+2019-05-09 14:52:55,066-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'uid': '10086', 'true_name': '殇殇', 'cre_id': '420104198707034024'}
+2019-05-09 14:52:55,070-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:52:55,423-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:开始执行第9条测试用例:真实姓名不合法
+2019-05-09 14:52:55,427-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:自动生成的身份证号是：653223199403112630
+2019-05-09 14:52:55,428-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的数据是：{'uid': '100009824', 'true_name': 'test', 'cre_id': '420104198707034024'}
+2019-05-09 14:52:55,429-common.do_suds-[INFO]-[my_log.py:35]-[日志信息]:请求的地址是：http://120.24.235.105:9010/finance-user_info-war-1.0/ws/financeUserInfoFacade.ws?wsdl
+2019-05-09 14:52:55,702-test_verifiedUserAuth-[INFO]-[my_log.py:35]-[日志信息]:---测试用例执行结束---
