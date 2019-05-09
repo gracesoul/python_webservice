@@ -4,6 +4,7 @@
 # @file:run.py
 # @fuction: 执行所有的测试用例
 
+
 import unittest
 from BeautifulReport import BeautifulReport
 from common.contants import *
