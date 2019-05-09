@@ -16,8 +16,6 @@ from common.do_suds import DoSuds
 from common.my_log import MyLog
 from common.do_mysql import DoMysql
 
-
-
 my_log = MyLog (__name__)
 
 do_excel = DoExcel(case_file,'sendMCode')
