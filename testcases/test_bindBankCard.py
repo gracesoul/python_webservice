@@ -40,6 +40,7 @@ class BindBankCardTest(unittest.TestCase):
     def tearDownClass(cls):
         my_log.info('---测试用例执行结束---')
 
+
 if __name__ == '__main__':
     unittest.main()
 
