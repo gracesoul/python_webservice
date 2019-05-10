@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4e124c4-c24f-4054-8509-461ff298166c" name="Default" comment="" />
+    <list default="true" id="e4e124c4-c24f-4054-8509-461ff298166c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/test.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/config/test.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/case.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/case.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/test.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/webservice实战测试报告.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/webservice实战测试报告.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,15 +21,16 @@
     <SUITE FILE_PATH="coverage/python_web$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1557206888292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/python_web$Unittests_for_test_sendMcode_SendmcodeTest.coverage" NAME="Unittests for test_sendMcode.SendmcodeTest Coverage Results" MODIFIED="1557043240523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
     <SUITE FILE_PATH="coverage/python_web$do_mysql.coverage" NAME="do_mysql Coverage Results" MODIFIED="1557217775116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/python_web$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1557473131498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_web$contants.coverage" NAME="contants Coverage Results" MODIFIED="1556519183590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/python_web$do_cardid.coverage" NAME="do_cardid Coverage Results" MODIFIED="1557365763984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/python_web$Unittests_in_test_bindBankCard_py.coverage" NAME="Unittests in test_bindBankCard.py Coverage Results" MODIFIED="1557382798533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
-    <SUITE FILE_PATH="coverage/python_web$Unittests_in_test_userRegister_py.coverage" NAME="Unittests in test_userRegister.py Coverage Results" MODIFIED="1557381933723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
+    <SUITE FILE_PATH="coverage/python_web$Unittests_in_test_userRegister_py.coverage" NAME="Unittests in test_userRegister.py Coverage Results" MODIFIED="1557472727871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
     <SUITE FILE_PATH="coverage/python_web$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1557112986102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/python_web$Unittests_in_test_register_py.coverage" NAME="Unittests in test_register.py Coverage Results" MODIFIED="1557120596403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
     <SUITE FILE_PATH="coverage/python_web$config.coverage" NAME="config Coverage Results" MODIFIED="1557211273937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/python_web$demo3.coverage" NAME="demo3 Coverage Results" MODIFIED="1557121100005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
-    <SUITE FILE_PATH="coverage/python_web$Unittests_in_test_sendMcode_py.coverage" NAME="Unittests in test_sendMcode.py Coverage Results" MODIFIED="1557383606881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
+    <SUITE FILE_PATH="coverage/python_web$Unittests_in_test_sendMcode_py.coverage" NAME="Unittests in test_sendMcode.py Coverage Results" MODIFIED="1557471848163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
     <SUITE FILE_PATH="coverage/python_web$Unittests_for_test_userRegister_RegisterTest.coverage" NAME="Unittests for test_userRegister.RegisterTest Coverage Results" MODIFIED="1557132231666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
     <SUITE FILE_PATH="coverage/python_web$run.coverage" NAME="run Coverage Results" MODIFIED="1557384762042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
     <SUITE FILE_PATH="coverage/python_web$Unittests_in_test_verifiedUserAuth_py.coverage" NAME="Unittests in test_verifiedUserAuth.py Coverage Results" MODIFIED="1557372686753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
@@ -35,18 +43,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_sendMcode.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testcases/test_sendMcode.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="72" column="29" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
-              <folding>
-                <element signature="e#110#125#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="test_bidloan.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../python15/interface_practice/testcases/test_bidloan.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -54,18 +50,6 @@
               <caret line="35" column="46" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="46" />
               <folding>
                 <element signature="e#104#119#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="run.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testcases/run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#97#112#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,11 +70,33 @@
       <file leaf-file-name="test_verifiedUserAuth.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcases/test_verifiedUserAuth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-329">
-              <caret line="101" column="58" selection-start-line="101" selection-start-column="58" selection-end-line="101" selection-end-column="58" />
+            <state relative-caret-position="-244">
+              <caret line="81" column="13" lean-forward="true" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
               <folding>
                 <element signature="e#115#130#0" expanded="true" />
+                <element signature="e#1531#1892#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_bindBankCard.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testcases/test_bindBankCard.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+              <folding>
+                <element signature="e#108#123#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -103,6 +109,27 @@
               <folding>
                 <element signature="e#86#101#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_userRegister.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testcases/test_userRegister.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2075">
+              <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+              <folding>
+                <element signature="e#108#123#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.cfg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/test.cfg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -121,6 +148,9 @@
       <find>faults</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -138,7 +168,6 @@
         <option value="$PROJECT_DIR$/common/config.py" />
         <option value="$PROJECT_DIR$/common/do_mysql.py" />
         <option value="$PROJECT_DIR$/../python15/interface_practice/testcases/test_register.py" />
-        <option value="$PROJECT_DIR$/config/test.cfg" />
         <option value="$PROJECT_DIR$/common/demo1.py" />
         <option value="$PROJECT_DIR$/common/contants.py" />
         <option value="$PROJECT_DIR$/common/do_cardid.py" />
@@ -146,10 +175,12 @@
         <option value="$PROJECT_DIR$/../python15/interface_practice/testcases/test_bidloan.py" />
         <option value="$PROJECT_DIR$/common/my_log.py" />
         <option value="$PROJECT_DIR$/common/do_suds.py" />
+        <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/testcases/test_sendMcode.py" />
         <option value="$PROJECT_DIR$/testcases/test_userRegister.py" />
-        <option value="$PROJECT_DIR$/testcases/test_bindBankCard.py" />
+        <option value="$PROJECT_DIR$/config/test.cfg" />
         <option value="$PROJECT_DIR$/testcases/test_verifiedUserAuth.py" />
+        <option value="$PROJECT_DIR$/testcases/test_bindBankCard.py" />
       </list>
     </option>
   </component>
@@ -168,6 +199,7 @@
     <option name="width" value="1297" />
     <option name="height" value="576" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -179,6 +211,26 @@
             <path>
               <item name="python_web" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_web" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_web" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_web" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_web" type="462c0819:PsiDirectoryNode" />
+              <item name="testcases" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -197,6 +249,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\work\python_web" />
       <recent name="F:\work\python_web\config" />
     </key>
   </component>
@@ -212,26 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run">
-    <configuration name="my_log (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_web" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python15/interface_practice/common" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../python15/interface_practice/common/my_log.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.run (1)">
     <configuration name="my_log" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_web" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -251,6 +285,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="run (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_web" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_web" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -264,25 +317,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcases/run.py" />
+      <option name="SCRIPT_NAME" value="F:\work\python_web\run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Unittests in test_bindBankCard.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="python_web" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcases/test_bindBankCard.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration name="Unittests in test_sendMcode.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python_web" />
@@ -298,20 +337,34 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/testcases/test_sendMcode.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
+    <configuration name="Unittests in test_userRegister.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python_web" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcases/test_userRegister.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests in test_bindBankCard.py" />
       <item itemvalue="Python tests.Unittests in test_sendMcode.py" />
       <item itemvalue="Python.my_log" />
-      <item itemvalue="Python.my_log (1)" />
       <item itemvalue="Python.run" />
+      <item itemvalue="Python.run (1)" />
+      <item itemvalue="Python tests.Unittests in test_userRegister.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.run" />
+        <item itemvalue="Python.run (1)" />
+        <item itemvalue="Python tests.Unittests in test_userRegister.py" />
         <item itemvalue="Python tests.Unittests in test_sendMcode.py" />
+        <item itemvalue="Python.run" />
         <item itemvalue="Python.my_log" />
-        <item itemvalue="Python.my_log (1)" />
-        <item itemvalue="Python tests.Unittests in test_bindBankCard.py" />
       </list>
     </recent_temporary>
   </component>
@@ -326,18 +379,45 @@
       <option name="presentableId" value="Default" />
       <updated>1556440299765</updated>
     </task>
+    <task id="LOCAL-00001" summary="test_sendMcode第一次修改">
+      <created>1557387866801</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557387866801</updated>
+    </task>
+    <task id="LOCAL-00002" summary="run.py第一次修改">
+      <created>1557393204490</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557393204490</updated>
+    </task>
+    <task id="LOCAL-00003" summary="requirements.txt第一次修改">
+      <created>1557452707887</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557452707893</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update test_bindBankCard.py">
+      <created>1557473253964</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557473253964</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update test_userRegister.py&#10;update test_sendMcode.py&#10;ipdate test_verifiedUserAuth.py">
+      <created>1557473330615</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557473330615</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_verifiedUserAuth_py - 2019.05.09 at 11h 31m 33s.xml">
-      <configuration name="Unittests in test_verifiedUserAuth.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_bindBankCard_py - 2019.05.09 at 13h 28m 57s.xml">
-      <configuration name="Unittests in test_bindBankCard.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_sendMcode_py - 2019.05.09 at 13h 42m 36s.xml">
-      <configuration name="Unittests in test_sendMcode.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_sendMcode_py - 2019.05.09 at 13h 47m 46s.xml">
       <configuration name="Unittests in test_sendMcode.py" configurationId="tests" />
     </history-entry>
@@ -359,18 +439,27 @@
     <history-entry file="Unittests_in_test_sendMcode_py - 2019.05.09 at 14h 33m 32s.xml">
       <configuration name="Unittests in test_sendMcode.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_sendMcode_py - 2019.05.10 at 15h 01m 42s.xml">
+      <configuration name="Unittests in test_sendMcode.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_sendMcode_py - 2019.05.10 at 15h 04m 15s.xml">
+      <configuration name="Unittests in test_sendMcode.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_userRegister_py - 2019.05.10 at 15h 19m 01s.xml">
+      <configuration name="Unittests in test_userRegister.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50075644" side_tool="true" weight="0.54810995" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50075644" side_tool="true" weight="0.32874355" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="Python Console" order="3" weight="0.3298969" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49924356" weight="0.02749141" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.6443299" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.17549168" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49924356" visible="true" weight="0.020654045" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49924356" weight="0.39931154" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.17549168" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.3298969" />
@@ -415,6 +504,14 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test_sendMcode第一次修改" />
+    <MESSAGE value="run.py第一次修改" />
+    <MESSAGE value="requirements.txt第一次修改" />
+    <MESSAGE value="update test_bindBankCard.py" />
+    <MESSAGE value="update test_userRegister.py&#10;update test_sendMcode.py&#10;ipdate test_verifiedUserAuth.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="update test_userRegister.py&#10;update test_sendMcode.py&#10;ipdate test_verifiedUserAuth.py" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="210" />
@@ -426,36 +523,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testcases/test_send.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="148" column="39" selection-start-line="148" selection-start-column="30" selection-end-line="148" selection-end-column="39" />
-          <folding>
-            <element signature="e#94#109#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcases/test_register.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="e#106#121#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/demo3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#90#115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Program Files/python/Lib/unittest/loader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -628,13 +695,6 @@
         <state relative-caret-position="-2583" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/test.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/openpyxl/workbook/workbook.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -735,25 +795,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/test.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/do_suds.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-193">
           <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           <folding>
             <element signature="e#97#127#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcases/test_userRegister.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-277">
-          <caret line="78" column="50" lean-forward="true" selection-start-line="78" selection-start-column="50" selection-end-line="78" selection-end-column="50" />
-          <folding>
-            <element signature="e#108#123#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -768,12 +815,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcases/test_bindBankCard.py">
+    <entry file="file://$PROJECT_DIR$/common/my_log.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        <state relative-caret-position="1137">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
           <folding>
-            <element signature="e#108#123#0" expanded="true" />
+            <element signature="e#100#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/test.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-6809" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/configparser.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/test_sendMcode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+          <folding>
+            <element signature="e#110#125#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -788,43 +863,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/my_log.py">
+    <entry file="file://$PROJECT_DIR$/testcases/test_userRegister.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1137">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="2075">
+          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
           <folding>
-            <element signature="e#100#114#0" expanded="true" />
+            <element signature="e#108#123#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcases/test_sendMcode.py">
+    <entry file="file://$PROJECT_DIR$/config/test.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="72" column="29" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
-          <folding>
-            <element signature="e#110#125#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="145">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testcases/test_verifiedUserAuth.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-329">
-          <caret line="101" column="58" selection-start-line="101" selection-start-column="58" selection-end-line="101" selection-end-column="58" />
+        <state relative-caret-position="-244">
+          <caret line="81" column="13" lean-forward="true" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
           <folding>
             <element signature="e#115#130#0" expanded="true" />
+            <element signature="e#1531#1892#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcases/run.py">
+    <entry file="file://$PROJECT_DIR$/testcases/test_bindBankCard.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="609">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
           <folding>
-            <element signature="e#97#112#0" expanded="true" />
+            <element signature="e#108#123#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
