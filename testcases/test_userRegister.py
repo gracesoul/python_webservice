@@ -59,7 +59,7 @@ class RegisterTest(unittest.TestCase):
             # 保证用户名不一致
         if case.data.find ('username') > -1:
             username = getattr(Context,'username')
-            username = username+str(random.randint(1,100))
+            username = username+str(random.randint(1,10000))
             case.data = case.data.replace ('username', str (username))
             setattr(Context,'username',username)
             my_log.info('username的值:{}'.format(username))
