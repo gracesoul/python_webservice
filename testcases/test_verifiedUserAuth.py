@@ -38,6 +38,7 @@ class VerifiedUserAuthTest(unittest.TestCase):
     def test_verifiedUserAuth(self,case):
         global username
         my_log.info ('开始执行第{}条测试用例:{}'.format (case.case_id,case.title))
+        case.data = replace (case.data)
         # 在请求之前，检查是否执行SQL语句
         if case.check_sql:
             sql = eval(case.check_sql)['sql1']
@@ -45,7 +46,6 @@ class VerifiedUserAuthTest(unittest.TestCase):
             auth_before = sql_result['count(Fpk_id)']
             my_log.info ('实名认证之前，数据库的数据有：{}'.format (auth_before))
 
-        case.data = replace(case.data)
         # 生成唯一的手机号码（将数据库中最大的手机号+1000） 发生验证码接口--normal_mobile
         if case.data.find('normal_mobile')>-1:
             sql = 'select max(Fmobile_no) from sms_db_20.t_mvcode_info_0 ;'
@@ -60,9 +60,7 @@ class VerifiedUserAuthTest(unittest.TestCase):
             case.data = case.data.replace('username',str(username))
             setattr(Context,'username',str(username))
 
-
         # 将自动生成的身份证号存在card_id 中
-
         setattr(Context,'card_id',str(self.card))
         card_id = getattr(Context,'card_id')
         case.data = case.data.replace ('card_id', self.card)
@@ -74,7 +72,6 @@ class VerifiedUserAuthTest(unittest.TestCase):
             print ('响应的结果是：{}'.format (result))
             self.assertEqual (case.expected, escape (result[1]))
             do_excel.write_back (case.case_id + 1, escape (result[1]), 'Pass')
-
 
             # 2.从user_db.t_user_info表中，查到Fuid 并替换参数化
             if escape(result[1])=='ok':

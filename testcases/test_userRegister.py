@@ -40,6 +40,7 @@ class RegisterTest(unittest.TestCase):
         global username
         my_log.info('开始测试第{}条测试用例：{}'.format(case.case_id,case.title))
 
+        case.data = replace (case.data)
         # 在请求之前，先判断是否需要执行SQL
         if case.check_sql:
             sql = eval(case.check_sql)['sql1']
@@ -47,7 +48,6 @@ class RegisterTest(unittest.TestCase):
             before_register = sql_result['count(Fuid)']
             my_log.info('在注册之前，数据库的数据有：{}'.format(before_register))
 
-        case.data = replace (case.data)
         if case.data.find('normal_mobile')>-1:
             sql = 'select max(Fmobile_no) from sms_db_20.t_mvcode_info_0 ;'
             max_phone = self.mysql.fetch_one(sql)

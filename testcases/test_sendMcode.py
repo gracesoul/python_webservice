@@ -15,6 +15,7 @@ import warnings
 from common.do_suds import DoSuds
 from common.my_log import MyLog
 from common.do_mysql import DoMysql
+from common.do_context import replace
 
 my_log = MyLog (__name__)
 
@@ -35,6 +36,7 @@ class SendmcodeTest(unittest.TestCase):
     @data(*sendMcode_cases)
     def test_sendmcode(self,case):
         my_log.info('开始执行第{}条测试用例：{}'.format(case.case_id,case.title))
+        case.data = replace(case.data)
         # 在请求之前 先判断是否需要执行SQL
         if case.check_sql:
             sql = eval(case.check_sql)['sql1']
